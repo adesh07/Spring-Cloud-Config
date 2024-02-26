@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://ADESH-LAPTOP:8761/eureka
+      defaultZone: http://localhost:8761/eureka
   instance:
     hostname: ADESH-LAPTOP
     registerWithEureka: true
