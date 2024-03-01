@@ -1,9 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://Adesh:8761/eureka
+      defaultZone: http://localhost:8761/eureka
   instance:
-    hostname: Adesh
+    hostname: localhost
     registerWithEureka: true
     fetchRegistry: true
     preferIpAddress: false
